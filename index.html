@@ -35,12 +35,12 @@ body {
     width: 50%;
   }
   .thin-green-border {
-    border-color: green;
+    border-color: #00FF00;
     border-width: 5px;
     border-style: double;
     padding: 20px
   }
-  .curvy-border {border-color: green;
+  .curvy-border {border-color: #00FF00;
     border-width: 5px;
     border-style: double;
     border-radius: 50%}
@@ -56,7 +56,172 @@ body {
   p {
     color: white;
   }
-  
+  .penguin {
+
+    position: relative;
+    margin: auto;
+    display: block;
+    margin-top: 5%;
+    width: 300px;
+    height: 300px;
+  }
+
+  .penguin-top {
+    top: 10%;
+    left: 25%;
+    background: #FF0000;
+    width: 50%;
+    height: 45%;
+    border-radius: 70% 70% 60% 60%;
+  }
+
+  .penguin-bottom {
+    top: 40%;
+    left: 23.5%;
+    background: #FF0000;
+    width: 53%;
+    height: 45%;
+    border-radius: 70% 70% 100% 100%;
+  }
+
+  .right-hand {
+    top: 0%;
+    left: -5%;
+    background: #FF0000;
+    width: 30%;
+    height: 60%;
+    border-radius: 30% 30% 120% 30%;
+    transform: rotate(45deg);
+    z-index: -1;
+  }
+
+  .left-hand {
+    top: 0%;
+    left: 75%;
+    background: #FF0000;
+    width: 30%;
+    height: 60%;
+    border-radius: 30% 30% 30% 120%;
+    transform: rotate(-45deg);
+    z-index: -1;
+  }
+
+  .right-cheek {
+    top: 15%;
+    left: 35%;
+    background: white;
+    width: 60%;
+    height: 70%;
+    border-radius: 70% 70% 60% 60%;
+  }
+
+  .left-cheek {
+    top: 15%;
+    left: 5%;
+    background: white;
+    width: 60%;
+    height: 70%;
+    border-radius: 70% 70% 60% 60%;
+  }
+
+  .belly {
+    top: 60%;
+    left: 2.5%;
+    background: white;
+    width: 95%;
+    height: 40%;
+    border-radius: 120% 120% 100% 100%;
+  }
+
+  .right-feet {
+    top: 85%;
+    left: 60%;
+    background: orange;
+    width: 62%;
+    height: 30%;
+    border-radius: 50% 50% 50% 50%;
+    transform: rotate(-80deg);
+    z-index: -2222;
+  }
+
+  .left-feet {
+    top: 85%;
+    left: 25%;
+    background: orange;
+    width: 15%;
+    height: 90%;
+    border-radius: 50% 50% 50% 50%;
+    transform: rotate(80deg);
+    z-index: -2222;
+  }
+
+  .right-eye {
+    top: 45%;
+    left: 60%;
+    background: #00FF00
+;
+    width: 15%;
+    height: 17%;
+    border-radius: 50%;
+  }
+
+  .left-eye {
+    top: 45%;
+    left: 25%;
+    background: gray;
+    width: 15%;
+    height: 17%;
+    border-radius: 50%;
+  }
+
+  .sparkle {
+    top: 25%;
+    left: 15%;
+    background: black;
+    width: 35%;
+    height: 35%;
+    border-radius: 90%;
+  }
+
+  .blush-right {
+    top: 65%;
+    left: 15%;
+    background: pink;
+    width: 15%;
+    height: 10%;
+    border-radius: 50%;
+  }
+
+  .blush-left {
+    top: 65%;
+    left: 70%;
+    background: pink;
+    width: 40%;
+    height: 10%;
+    border-radius: 50%;
+  }
+
+  .beak-top {
+    top: 30%;
+    left: 40%;
+    background: orange;
+    width: 20%;
+    height: 10%;
+    border-radius: 50%;
+  }
+
+  .beak-bottom {
+    top: 75%;
+    left: 42%;
+    background: orange;
+    width: 16%;
+    height: 10%;
+    border-radius: 50%;
+  }
+
+  .penguin * {
+    position: absolute;
+  }
 </style>
 
 
@@ -92,5 +257,28 @@ body {
 <div class="thin-green-border blue-background">
 <p class="smaller-text">This blog is bought to you by Finn Johansson</p>
 <p class="smaller-text">You think that's <a href="https://www.youtube.com/watch?v=r9B7BQWnZJs&amp;ab_channel=AdultSwim" target="_blank">air</a> you're breathing now?</p>
+</div>
+<div class="penguin">
+  <div class="penguin-bottom">
+    <div class="right-hand"></div>
+    <div class="left-hand"></div>
+    <div class="right-feet"></div>
+    <div class="left-feet"></div>
+  </div>
+  <div class="penguin-top">
+    <div class="right-cheek"></div>
+    <div class="left-cheek"></div>
+    <div class="belly"></div>
+    <div class="right-eye">
+      <div class="sparkle"></div>
+    </div>
+    <div class="left-eye">
+      <div class="sparkle"></div>
+    </div>
+    <div class="blush-right"></div>
+    <div class="blush-left"></div>
+    <div class="beak-top"></div>
+    <div class="beak-bottom"></div>
+  </div>
 </div>
 </html>
