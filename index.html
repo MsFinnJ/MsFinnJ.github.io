@@ -4,6 +4,10 @@
 
 <style>
 
+
+
+
+
 body {
   background-color: black;
   font-family: VT323, MONOSPACE;
@@ -18,7 +22,14 @@ body {
   .smaller-text {
     font-size: 10px;
   }
-
+  .main-image {
+    width: 50%;
+  }
+  .thin-green-border {
+    border-color: green;
+    border-width: 5px;
+    border-style: double;
+  }
 
   h1 {
     color: green;
@@ -37,19 +48,19 @@ body {
 <!-- I'm not 100% sure how sick it will end up being but putting my best foot forward-->
 </head>
 <main>
-<h1 >Finn Johansson - Websites Learner </h1>
-<p><img src="https://f4.bcbits.com/img/0013761919_10.jpg" alt="Finn squeezing his face out of shape." /></p>
-<div>
-  <p class="smaller-text">'They say actions speak louder than words, but what speaks louder than actions is actions then talking about it with words.'</p>
+<h1 class="thin-green-border">Finn Johansson - Websites Learner </h1>
+<p><img class= "main-image thin-green-border" src="https://f4.bcbits.com/img/0013761919_10.jpg" alt="Finn squeezing his face out of shape." /></p>
+
+  <p class="smaller-text thin-green-border">'They say actions speak louder than words, but what speaks louder than actions is actions then talking about it with words.'</p>
 <p >- Finn Johansson</p>
-<ul class="green-text" class="small-text">
+<ul class="green-text thin-green-border" class="small-text">
 <li>Blog 1</li>
 <li>Blog 2</li>
 <li>Blog 3</li>
 <li>Blog 4</li>
 <li>Blog 5</li>
 </ul>
-</div>
+
 <form action="#">
   <input type="text" placeholder="Tell me something I don't know">
   <form action="mailto:astro_johansson@hotmail.com">
@@ -57,7 +68,8 @@ body {
 
   </form>
 </main>
+<div class="thin-green-border">
 <p class="smaller-text">This blog is bought to you by Finn Johansson</p>
 <p class="smaller-text">You think that's <a href="https://www.youtube.com/watch?v=r9B7BQWnZJs&amp;ab_channel=AdultSwim" target="_blank">air</a> you're breathing now?</p>
-
+</div>
 </html>
