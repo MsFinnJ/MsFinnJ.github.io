@@ -47,11 +47,19 @@ body {
       .blue-background {
     background-color: blue;
   }
+
+  .red-background {
+    background-color: red;
+  }
   
     h1 {
       color: white;
       font-size: 60px;
     }
+    h3{
+        color: white;
+    
+      }
     p {
       color: white;
     }
