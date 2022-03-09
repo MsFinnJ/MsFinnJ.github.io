@@ -1,4 +1,4 @@
-@import "https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css";
+/*@import "https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css";*/
 
 body {
 
@@ -27,6 +27,7 @@ body {
     }
     .smaller-text {
       font-size: 25px;
+      font-style: oblique;
     }
     .main-image {
       width: 50%;
@@ -43,7 +44,7 @@ body {
       border-radius: 50%;
       a href:"https://www.youtube.com/watch?v=zZN1puUwH0c&ab_channel=GerryPhillips";
     }
-  
+    
       .blue-background {
     background-color: blue;
   }
